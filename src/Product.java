@@ -27,4 +27,8 @@ public class Product {
 	public void Display() {
 		System.out.println("Callories per 100 gramm : " + first + "\nWeight of whole dish: " + second + "\n");
 	}
+	
+	public double Kalorii() {
+		return 1.* first / 100 * second;
+	}
 }
